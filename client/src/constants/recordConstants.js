@@ -1,0 +1,1 @@
+export const COLLECT_RECORDS = 'COLLECT_RECORDS'
