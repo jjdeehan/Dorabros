@@ -1,9 +1,9 @@
 import { UPDATE_PAGE, OVERVIEW_CONST, HOMEPAGE_CONST } from '../../constants/navbarConstants'
-
+import lads from '../../images/Lads.png'
 
 const initialState = {
   view: HOMEPAGE_CONST,
-  headerImageSource:"https://preview.ibb.co/f2LuLe/Screen_Shot_2018_07_12_at_14_47_21.png"
+  headerImageSource:lads
 };
 
 

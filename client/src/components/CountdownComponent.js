@@ -12,7 +12,7 @@ class Countdown extends Component {
     }
   }
 
-  componentDidMount() {
+  componentWillMount() {
     // update every second
     this.interval = setInterval(() => {
       const date = this.calculateCountdown(new Date(2019,12,13));
