@@ -8,8 +8,6 @@ import HomepageCrew from '../containers/HomepageCrewContainer';
 import HomepageSponsorship from '../containers/HomepageSponsorshipContainer';
 import HomepageContact from '../containers/HomepageContactContainer';
 import InstagramEmbed from 'react-instagram-embed';
-import MarathonDesSables from '../containers/MarathonDesSablesContainer'
-import CountDownComponent from './CountDownComponent'
 
 
 
