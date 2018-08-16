@@ -1,6 +1,6 @@
 import React, { PropTypes, Component } from 'react';
 
-class Countdown extends Component {
+export default class Countdown extends Component {
   constructor(props) {
     super(props);
 
@@ -122,4 +122,3 @@ Countdown.defaultProps = {
   date: new Date()
 };*/
 
-export default Countdown;

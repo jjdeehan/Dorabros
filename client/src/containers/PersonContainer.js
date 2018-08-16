@@ -4,7 +4,8 @@ import Person from '../components/PersonComponent'
 
 
 const mapState = (state, ownProps) => ({
-	person:ownProps.person
+	person:ownProps.person,
+	imageSource:ownProps.person.imageSource[0]
 })
 
 const mapDispatch = (dispatch, ownProps) => ({

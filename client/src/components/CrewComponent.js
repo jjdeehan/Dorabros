@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import Person from '../containers/PersonContainer'
 import Title from '../containers/TitleContainer'
-
+import Lirim from '../images/Lirim.png'
+import Charlie from '../images/Charlie.png'
+import James from '../images/James.png'
 
 export default class Crew extends Component {
 	constructor(){
@@ -9,14 +11,14 @@ export default class Crew extends Component {
 		this.state = {
 			crew:[{
 				name:"James",
-				job:"Coder",
+				job:"Software Developer",
 				lookingForwardTo:"A memorable New Years eve on the boat",
 				crewmatesDescription:"",
 				dreading:"",
 				desertIslandDisk:"Gorgeous - Kanye",
 				greatestFear:"Falling out",
 				age:"24",
-				imageSource:["https://adrift350988735.files.wordpress.com/2018/06/screen-shot-2018-06-17-at-23-38-28.png?w=696&h=779", ""],
+				imageSource:[James, ""],
 				funnyImage:"",
 				goingToStruggleWithout:"Galaxy Chocolate",
 				howWouldYourFriendsDescribeYou:"",
@@ -31,7 +33,7 @@ export default class Crew extends Component {
 				desertIslandDisk:"Taddy Porter - In the morning",
 				greatestFear:"Liam Neeson",
 				age:"23",
-				imageSource:["",""],
+				imageSource:[Lirim,""],
 				goingToStruggleWithout:"A microwave",
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"",
@@ -44,9 +46,9 @@ export default class Crew extends Component {
 				dreading:"The anticipation",
 				greatestFear:"Open water",
 				desertIslandDisk:"",
-				goingToStruggleWithout:"Natalie (Our Campaign manager)",
+				goingToStruggleWithout:"Natalie",
 				age:"24",
-				imageSource:["https://adrift350988735.files.wordpress.com/2018/06/screen-shot-2018-06-17-at-23-44-25.png?w=673&h=779","https://preview.ibb.co/c8nFPT/Screen_Shot_2018_07_31_at_13_53_09.png"],
+				imageSource:[Charlie,"https://preview.ibb.co/c8nFPT/Screen_Shot_2018_07_31_at_13_53_09.png"],
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"Titanic II",
 				onScreenHero:"",
@@ -58,17 +60,15 @@ export default class Crew extends Component {
 
   render(){
     return(
-    	<div style={{"textAlign":"center"}}>
-    	  		**** DESCRIPTION HERE ****
+    	<div style={{"textAlign":"center"}} className="container">
       <div className="row" style={{"textAlign":"left"}}>
-      <div className="col-centered">
       	<Title title="Crew" />
       	{	this.state.crew.map(el => {
-      			return <Person person={el} className="text-block" />
+      			return <Person person={el} key={el.name} />
       			})
       	}
       </div>
-      </div>
+      <hr/>
       </div>
     )
   }

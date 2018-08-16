@@ -7,6 +7,7 @@ import HomepageCause from '../containers/HomepageCauseContainer';
 import HomepageCrew from '../containers/HomepageCrewContainer';
 import HomepageSponsorship from '../containers/HomepageSponsorshipContainer';
 import HomepageContact from '../containers/HomepageContactContainer';
+import Progress from '../containers/ProgressContainer';
 import InstagramEmbed from 'react-instagram-embed';
 
 
@@ -18,11 +19,16 @@ export default class Homepage extends Component {
         <HomepageCause />
        <br />
         <HomepageShortProse />
+        <HomepageCrew />
+        <br />
+        <Progress />
+        <br />
+        
   	    <ChallengeCycle />
         <br />
         <Instagram />
        <br />
-        <HomepageCrew />
+        
        <br />
         <HomepageSponsorship />
        <br />
