@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline }  from 'react-vertical-timeline-component';
+import VerticalTimelineElement from './reacttimelineelement'
 import MdSLogo from '../images/MdSLogo.png'
 import LM from '../images/LM.png'
 import IM from '../images/IM.png'
