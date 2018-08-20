@@ -12,10 +12,10 @@ export default class HomepageShortProse extends Component {
   render(){
     return(
     	<div >
-        <div>
+        <div >
         <br />
         <br />
-          <div className=" blockquote text-center text-block" style={{"textAlign":"center",color:"black", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
+          <div id="Reason" className=" blockquote text-center text-block" style={{"textAlign":"center",color:"black", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
           Brought together by a thirst for challenge and a desire to do something worthwhile;
           </div>
           <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"black", width:"70%", "fontFamily":"adobe-garamond-pro"}}>

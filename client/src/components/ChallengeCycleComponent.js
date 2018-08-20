@@ -13,7 +13,7 @@ export default class ChallengeCycle extends Component {
 
   render(){
     return(
-      <div >
+      <div id="Challenge">
 
 		  <div className="section-container">
 		  <main className="section-main">
@@ -31,7 +31,7 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#0135fd' }}
 		    icon={<div/>}
 		  >
-		  <img  style={{float:"right"}} width="100" height="100" src={MdSLogo}  />
+		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="100" height="100" src={MdSLogo}  />
 		    <h3 className="vertical-timeline-element-title">Marathon des Sables</h3>
 		    <h4 >Morocco</h4>
 		    <p>
@@ -46,7 +46,7 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		  <img  style={{float:"right"}} width="250" height="100" src={LM}  />
+		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="250" height="100" src={LM}  />
 		    <h3 className="vertical-timeline-element-title">London Marathon</h3>
 		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
 		    <p>
@@ -71,7 +71,7 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		  <img  style={{float:"right"}} width="250" height="100" src={IM}  />
+		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="250" height="100" src={IM}  />
 		    <h3 className="vertical-timeline-element-title">IronMan</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Nice, France</h4>
 
@@ -109,7 +109,7 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		  <img  style={{float:"right"}} width="250" height="100" src={CS}  />
+		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="250" height="100" src={CS}  />
 		    <h3 className="vertical-timeline-element-title">Relay Swim across the Channel</h3>
 		    <h4 className="vertical-timeline-element-subtitle">English Channel</h4>
 		    <p>
@@ -122,7 +122,7 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		  	<img  style={{float:"right"}} width="350" height="100" src={TWAC}  />
+		  	<img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="350" height="100" src={TWAC}  />
 		    <h3 className="vertical-timeline-element-title">Talisker Whisky Atlantic Challenge</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Atlantic Ocean</h4>
 		    <p>

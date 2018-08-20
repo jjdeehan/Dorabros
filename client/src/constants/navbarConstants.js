@@ -1,6 +1,6 @@
 export const UPDATE_PAGE = 'UPDATE_PAGE'
 
-export const CHALLENGE_CONST = 'CHALLENGE'
+export const CHALLENGE_CONST = 'CHALLENGES'
 
 export const CAUSE_CONST = 'CAUSE'
 

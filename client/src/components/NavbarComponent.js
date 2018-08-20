@@ -19,23 +19,28 @@ export default class Example extends React.Component {
     this.state = {
       navbarSections: [{
       page:CHALLENGE_CONST,
-      imageSource:"https://www.casaviejalodge.com/wp-content/uploads/2015/06/mahi4.jpg"
+      imageSource:"https://www.casaviejalodge.com/wp-content/uploads/2015/06/mahi4.jpg",
+      pageId:"#Challenge"
     },
     {
       page:CAUSE_CONST,
-      imageSource:"https://www.teenagecancertrust.org/sites/default/files/Teenage%20Cancer%20Trust%20%20in%20aid%20of%20logo%20cmyk_0.jpg"
+      imageSource:"https://www.teenagecancertrust.org/sites/default/files/Teenage%20Cancer%20Trust%20%20in%20aid%20of%20logo%20cmyk_0.jpg",
+      pageId:"#Cause"
     },
     {
       page:CREW_CONST,
-      imageSource:""
+      imageSource:"",
+      pageId:"#Crew"
     },
     {
       page:SPONSORSHIP_CONST,
-      imageSource:""
+      imageSource:"",
+      pageId:"#Sponsors"
     },
     {
       page:CONTACT_CONST,
-      imageSource:""
+      imageSource:"",
+      pageId:"#Contact"
     }
       ]
     }
@@ -43,7 +48,7 @@ export default class Example extends React.Component {
   }
 
   pageClicked (page, imageSource) {
-    this.props.changePage(page, imageSource)
+    //this.props.changePage(page, imageSource)
   }
 
   render() {
@@ -63,7 +68,7 @@ export default class Example extends React.Component {
               <Nav className="" navbar>
                 {this.state.navbarSections.map((el, index) => {
                   return <NavItem className="clickable" style={{'color':'white', fontFamily:'FatFrank', margin:"auto"}} key={el.page}>
-                      <NavLink onClick={() => this.pageClicked(el.page,el.imageSource)}>{el.page}</NavLink>
+                      <NavLink style={{color:'white', fontFamily:'FatFrank', fontSize:22}}href={el.pageId} onClick={() => this.pageClicked(el.page,el.imageSource)}>{el.page}</NavLink>
                     </NavItem>
                     
                 })}

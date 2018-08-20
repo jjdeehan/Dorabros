@@ -60,7 +60,7 @@ export default class Crew extends Component {
 
   render(){
     return(
-    	<div style={{"textAlign":"center"}} className="container">
+    	<div id="crew" style={{"textAlign":"center"}} className="container">
       <div className="row" style={{"textAlign":"left"}}>
       	<Title title="Crew" />
       	{	this.state.crew.map(el => {

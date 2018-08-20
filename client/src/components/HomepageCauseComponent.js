@@ -5,7 +5,7 @@ import TCTLogo from "../images/InAidOf_TCT.jpg";
 export default class HomepageCause extends Component {
   render(){
     return(
-    	<div>
+    	<div id="Cause">
     	<a href="https://www.teenagecancertrust.org/" target="_blank">
     	  <div className="section-container-cause">
 		  <main className="section-main-cause">
