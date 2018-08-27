@@ -26,7 +26,7 @@ export default class Person extends Component {
 
       <img style={{minWidth:"200px"}} className="img-thumbnail" src={this.state.imageSource} onMouseOver={this.toggleImage} onMouseOut={this.toggleImage}/>
       
-      <h4 style={{textAlign:"center"}}>{this.props.person.name}</h4>
+      <h4 style={{textAlign:"center", fontSize:"20pt"}}>{this.props.person.name}</h4>
       <br/>
       
       {
@@ -74,6 +74,7 @@ export default class Person extends Component {
         {"    "+this.props.person.favouriteMovie}
         </div>
       }
+      <br />
       </div>
       </div>
     )

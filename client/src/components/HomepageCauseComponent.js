@@ -1,31 +1,40 @@
 import React, {Component} from 'react';
-import TCTLogo from "../images/InAidOf_TCT.jpg";
+import Progress from '../containers/ProgressContainer';
 
 
 export default class HomepageCause extends Component {
   render(){
     return(
     	<div id="Cause">
-    	<a href="https://www.teenagecancertrust.org/" target="_blank">
+    	
     	  <div className="section-container-cause">
 		  <main className="section-main-cause">
 		  <div className="section-main-container-cause
 		  "><br />
-		  
-	      <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"60%", "fontFamily":"adobe-garamond-pro"}} ><div><img src={
-	      	TCTLogo} style={{height:"50%", width:"100%"}} /></div><br />“In the UK every day 7 teenagers between the ages of 13 – 24 are diagnosed with cancer. They need treatment and support from the moment they first hear ‘cancer’. Teenage Cancer Trust is the only charity dedicated to making this happen.”
-	      <br />
-	      </div>
+		            <div id="Reason" className=" blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
+          Brought together by a thirst for challenge and a desire to do something worthwhile;
+          </div>
+          <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
+          in 2019, the Dorabros will take up a gauntlet of challenges: <br />Kicking off with an ultramarathon in the Sahara - the infamous Marathon des Sables - and ending with the World's Toughest row - a 3000 mile rowing race across the Atlantic
+          </div>
+          <br />
+          <Progress />
+            <div className="text-center text-block" style={{"textAlign":"center"}}>
+
+            </div>
+
 	      
 	      </div>
+
 	      </main>
+
 	      </div>
 	      <br />
 	      <br />
 	      <br />
 	      <br />
 	      <br />
-	      </a>
+
       </div>
     )
   }

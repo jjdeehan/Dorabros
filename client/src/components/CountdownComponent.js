@@ -77,7 +77,7 @@ export default class Countdown extends Component {
     const countDown = this.state;
 
     return (
-    <div style={{"backgroundColor":"black", height:"55px"}} className="row">
+    <div style={{ height:"55px"}} className="row">
       <div className="Countdown centered" style={{float:"none", margin:"0 auto", paddingTop:"20px"}}>
    
         <span className="Countdown-col">

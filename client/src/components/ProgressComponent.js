@@ -30,7 +30,7 @@ export default class Progess extends Component {
 
     var progress = svg.append('rect')
             //.attr('class', 'progress-rect')
-            .attr('fill', '#2eb24a')
+            .attr('fill', '#fff')
             .attr('height', 16)
             .attr('width', 0)
             .attr('rx', 5)
@@ -47,8 +47,8 @@ export default class Progess extends Component {
     function moveProgressBar(){
       progress.transition()
         .duration(1000)
-        .attr('fill', '#2eb24a')
-        .attr('width', 100);
+        .attr('fill', '#fff')
+        .attr('width', 0);
     }
     moveProgressBar()
   }
@@ -58,21 +58,18 @@ export default class Progess extends Component {
   render(){
     return(
       <div>
-      <h1 className="TITLE" style={{textAlign:"center"}}>
-		            <a href="/" style={{color:"black"}}>CONTRIBUTE</a></h1>
-		            <br />
-      <div style={{width:"100%",}}>
+      <div style={{width:"100%", color:"white"}}>
             <div className="progressLining" style={{marginRight:"25%", width:"50%", marginLeft:"25%"}}>
             <svg className="progress" style={{backgroundColor:"transparent"}}/>
 
             </div>
             </div>
-            <div style={{width:"30%", marginLeft:"35%", marginRight:"35%"}}>
+            <div style={{width:"100%", marginLeft:"0%", marginRight:"35%"}}>
             <br />
             <Countdown />
             </div>
             <br />
-          <div className="blockquote text-center text-block" style={{"textAlign":"center", "fontFamily":"adobe-garamond-pro"}}>
+          <div className="blockquote text-center text-block" style={{color:"white","textAlign":"center", "fontFamily":"adobe-garamond-pro"}}>
                 	  Carrying us across the finish line will be the inspiring work of the Teenage Cancer Trust as we aim to raise £50 000 for this amazing charity
 
           </div>

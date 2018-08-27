@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  font-family: "FatFrank", sans-serif;
 }
 
 blockquote, q {
@@ -609,7 +610,6 @@ body{
 
 .navbar-nav{
 	width:50%;
-	margin-left:15%;
 }
 
 .vertical-timeline-element-date{
@@ -652,9 +652,23 @@ body{
 }
 
 .progressLining{
-  border:3px solid black;
+  border:3px solid white;
   display:inline-block;
   border-radius:10px;
 }
 
 
+@media (min-width: 1100px)
+{.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+}
+
+
+@media (min-width: 1100px) {
+.navbar-expand-lg {
+ -ms-flex-flow: row nowrap;
+
+ }
+}

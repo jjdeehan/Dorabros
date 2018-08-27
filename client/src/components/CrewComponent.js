@@ -65,6 +65,7 @@ export default class Crew extends Component {
       	<Title title="Crew" />
       	{	this.state.crew.map(el => {
       			return <Person person={el} key={el.name} />
+
       			})
       	}
       </div>
