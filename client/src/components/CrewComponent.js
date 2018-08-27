@@ -23,7 +23,8 @@ export default class Crew extends Component {
 				goingToStruggleWithout:"Galaxy Chocolate",
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"Three Idiots",
-				onScreenHero:""
+				onScreenHero:"",
+				IG_Link:"https://www.instagram.com/jamesdeehaan"
 					}, {
 				name:"Lirim",
 				job:"Chef",
@@ -38,6 +39,7 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"",
 				onScreenHero:"",
+				IG_Link:"https://www.instagram.com/lirimgula"
 					}, {
 				name:"Charlie",
 				job:"Business Development Consultant",
@@ -52,6 +54,7 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"Titanic II",
 				onScreenHero:"",
+				IG_Link:"https://www.instagram.com/charliecrane94"
 					}]
 			}
 	}

@@ -71,7 +71,7 @@ export default class Example extends React.Component {
           </div>
         </div>
         <div style={{marginLeft:"0 auto", marginRight:"0 auto"}}>
-        <Navbar color="inverse" className="topnav navbar-expand-xl centered" style={{width:"35%", float:"none", position:"absolute", marginTop:"60px", zIndex:20,"backgroundColor":"transparent", marginLeft:"60%"}}>
+        <Navbar color="inverse" className="topnav navbar-expand-xl centered" style={{width:"55%", float:"none", position:"absolute", marginTop:"60px", zIndex:20,"backgroundColor":"transparent", marginLeft:"50%"}}>
             <button className="navbar-toggler ml-auto"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon">
               </span>

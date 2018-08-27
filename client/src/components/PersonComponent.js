@@ -20,11 +20,14 @@ export default class Person extends Component {
 	}
 
   render(){
+    console.log(this.props.person.IG_Link)
     return(
-      <div className="col-md-4">
+      <div  className="col-md-4">
+      
       <div>
-
+<a href={this.props.person.IG_Link} target="_blank">
       <img style={{minWidth:"200px"}} className="img-thumbnail" src={this.state.imageSource} onMouseOver={this.toggleImage} onMouseOut={this.toggleImage}/>
+      </a>
       
       <h4 style={{textAlign:"center", fontSize:"20pt"}}>{this.props.person.name}</h4>
       <br/>
@@ -76,6 +79,7 @@ export default class Person extends Component {
       }
       <br />
       </div>
+
       </div>
     )
   }
