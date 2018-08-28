@@ -20,11 +20,13 @@ export default class Homepage extends Component {
         <HomepageShortProse />
         <HomepageCrew />
         <br />
+        <Instagram />
+        <br/>
   	    <ChallengeCycle />
         <br />
         <HomepageSponsorship />
-        <br />
-        <Instagram />
+
+        
        <br />
         <HomepageContact />
        <br />
