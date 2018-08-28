@@ -75,7 +75,6 @@ export default class Countdown extends Component {
 
   render() {
     const countDown = this.state;
-    console.log(countDown)
     return (
     <div style={{ height:"55px"}} className="row">
       <div className="Countdown centered" style={{float:"none", margin:"0 auto", paddingTop:"20px"}}>
