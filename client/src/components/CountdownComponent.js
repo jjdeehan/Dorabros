@@ -75,21 +75,21 @@ export default class Countdown extends Component {
 
   render() {
     const countDown = this.state;
-
+    console.log(countDown)
     return (
     <div style={{ height:"55px"}} className="row">
       <div className="Countdown centered" style={{float:"none", margin:"0 auto", paddingTop:"20px"}}>
    
         <span className="Countdown-col">
           <span className="Countdown-col-element" >
-              <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years)}</strong>
+              <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years - 32)}</strong>
               <span style={{color:"white"}}>{countDown.days === 1 ? ' Day ' : ' Days '}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
-            <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.hours)}</strong>
+            <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.hours+5)}</strong>
             <span style={{color:"white"}}>{" Hours "}</span>
           </span>
         </span>
