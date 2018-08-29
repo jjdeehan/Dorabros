@@ -76,6 +76,11 @@ export default class Person extends Component {
         <b>{"Favourite Movie"}</b>
         {"    "+this.props.person.favouriteMovie}
         </div>
+      }      {this.props.person.greatestFear &&
+        <div>
+        <b>{"Greatest fear"}</b>
+        {"    "+this.props.person.greatestFear}
+        </div>
       }
       <br />
       </div>
