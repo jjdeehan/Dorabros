@@ -1,9 +1,10 @@
-import { UPDATE_PAGE, OVERVIEW_CONST, HOMEPAGE_CONST } from '../../constants/navbarConstants'
-import lads from '../../images/Lads.png'
+import { UPDATE_PAGE, OVERVIEW_CONST, HOMEPAGE_CONST, UPDATE_HEADER_IMAGE } from '../../constants/navbarConstants'
+import lads from '../../images/dorabros.png'
 
 const initialState = {
   view: HOMEPAGE_CONST,
-  headerImageSource:lads
+  headerImageSource:lads,
+  refresh:true
 };
 
 
@@ -13,7 +14,11 @@ export default (state = initialState, action) => {
     case UPDATE_PAGE:
       newState.view = action.view;
       newState.headerImageSource = action.headerImageSource;
+      newState.refresh = true;
     break;
+    case UPDATE_HEADER_IMAGE:
+      newState.headerImageSource = action.headerImageSource;
+      break;
     default:
       return state;
   }

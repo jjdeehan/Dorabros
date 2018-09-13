@@ -7,7 +7,7 @@ console.log('made it to the index')
 router.use('/sample', require('./dummyAPIBranch'))
 
       //.use('/users', require('./users'));
-
+router.use('/progress', require('./progressAPIBranch'))
 
 router.use('/', (req, res, next) => {
 

@@ -5,7 +5,7 @@ import Progress from '../containers/ProgressContainer';
 export default class HomepageCause extends Component {
   render(){
     return(
-    	<div id="Cause">
+    	<div>
     	
     	  <div className="section-container-cause">
 		  <main className="section-main-cause">

@@ -12,7 +12,7 @@ export default class HomepageSponsorship extends Component {
     return(
       <div id="Sponsors">
       <br/>
-      {this.state.sponsors.lenght &&
+      {this.state.sponsors.length &&
 	    <h1 className="TITLE" style={{textAlign:"center"}}>
         <a href="/" style={{color:"black"}}>SPONSORS</a></h1>
     	}

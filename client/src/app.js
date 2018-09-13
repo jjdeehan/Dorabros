@@ -4,6 +4,7 @@ import Navbar from './containers/NavbarContainer';
 import HeaderImage from './containers/HeaderImageContainer';
 import Content from './containers/ContentContainer';
 import ChallengeCycle from './containers/ChallengeCycleContainer';
+import Dorabro from './containers/DorabroContainer';
 
 
  
@@ -11,6 +12,7 @@ import ChallengeCycle from './containers/ChallengeCycleContainer';
 
 const App = ({ user }) => (
   <div>
+  	<Dorabro />
   	<Navbar />
     <HeaderImage />
     <Content />

@@ -8,7 +8,7 @@ const mapState = (state, ownProps) => ({
 })
 
 const mapDispatch = (dispatch) => ({
-	changePage: (newPage, imageSource) => dispatch(updatePage(newPage, imageSource))
+	updatePage: (newPage, imageSource) => dispatch(updatePage(newPage, imageSource))
 });
 
 export default connect(mapState, mapDispatch)(NavbarComponent);

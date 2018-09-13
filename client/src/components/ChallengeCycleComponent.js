@@ -13,7 +13,7 @@ export default class ChallengeCycle extends Component {
 
   render(){
     return(
-      <div id="Challenge">
+      <div id="Challenges">
 
 		  <div className="section-container">
 		  <main className="section-main">
@@ -50,7 +50,7 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">London Marathon</h3>
 		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
 		    <p>
-		      A staple of endurance
+		      The Dorabros will be partaking in the biggest annual sporting event in our home town
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -76,7 +76,7 @@ export default class ChallengeCycle extends Component {
 		    <h4 className="vertical-timeline-element-subtitle">Nice, France</h4>
 
 		    <p>
-		      A 3.8 km swim in the pristine waters of the Mediterranean Sea. The 180 km bike course with 6,500 feet of challenging climbs, but athletes will enjoy beautiful panoramic views followed by a marathon along the Promenade des Anglais
+		      A 3.8 km swim in the pristine waters of the Mediterranean Sea. The 180 km bike course with 6,500 feet of challenging climbs, followed by a marathon along the Promenade des Anglais
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -88,7 +88,7 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Rome to home</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Italy, France, England</h4>
 		    <p>
-		      The Dorabros, along with some pals, will be Cycling home from the Amalfi Coast
+		      The Dorabros, along with some pals, will be Cycling home from Rome
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -113,7 +113,7 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Relay Swim across the Channel</h3>
 		    <h4 className="vertical-timeline-element-subtitle">English Channel</h4>
 		    <p>
-		      The Dorabros will be crossing the channel as a team
+		      The Dorabros will be swimming across the channel as a team
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement

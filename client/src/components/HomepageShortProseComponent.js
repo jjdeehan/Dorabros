@@ -13,7 +13,7 @@ export default class HomepageShortProse extends Component {
   render(){
     return(
     	<div >
-        <div >
+        <div id="Cause">
 
 <a href="https://www.teenagecancertrust.org/" target="_blank">
                     <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"black", width:"60%", "fontFamily":"adobe-garamond-pro"}} ><div><img src={

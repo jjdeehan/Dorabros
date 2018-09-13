@@ -9,8 +9,10 @@ export default class HeaderImage extends Component {
   render(){
     return(
       <div>
-      <img src={this.props.imageSource} style={{zIndex:10, postion:"fixed"}} 
-      id="headerImage"/>
+      {this.props.imageSource &&
+        <img src={this.props.imageSource} style={{zIndex:10, postion:"fixed"}} 
+        id="headerImage"/>
+      }
       </div>
     )
   }

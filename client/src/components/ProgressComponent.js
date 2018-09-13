@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Countdown from './CountdownComponent'
+import axios from 'axios'
 
 
 export default class Progess extends Component {
@@ -7,6 +8,14 @@ export default class Progess extends Component {
 	constructor(props){
 		super(props)
 	}
+
+  componentWillMount(){
+    axios.get('/progress/')
+    .then(res => {
+      console.log(res)
+    })
+    console.log('here')
+  }
 
 	componentDidMount(){
     var svg = d3.select('.progress')
@@ -58,7 +67,21 @@ export default class Progess extends Component {
   render(){
     return(
       <div>
-      <div style={{width:"100%", color:"white"}}>
+
+
+
+      </div>
+    )
+  }
+}
+
+/*      
+            <br />
+          <div className="blockquote text-center text-block" style={{color:"white","textAlign":"center", "fontFamily":"adobe-garamond-pro"}}>
+                    Carrying us across the finish line will be the inspiring work of the Teenage Cancer Trust as we aim to raise £50 000 for this amazing charity
+
+          </div>
+          <div style={{width:"100%", color:"white"}}>
             <div className="progressLining" style={{marginRight:"25%", width:"50%", marginLeft:"25%"}}>
             <svg className="progress" style={{backgroundColor:"transparent"}}/>
 
@@ -67,14 +90,4 @@ export default class Progess extends Component {
             <div style={{width:"100%", marginLeft:"0%", marginRight:"35%"}}>
             <br />
             <Countdown />
-            </div>
-            <br />
-          <div className="blockquote text-center text-block" style={{color:"white","textAlign":"center", "fontFamily":"adobe-garamond-pro"}}>
-                	  Carrying us across the finish line will be the inspiring work of the Teenage Cancer Trust as we aim to raise £50 000 for this amazing charity
-
-          </div>
-
-      </div>
-    )
-  }
-}
+            </div>*/
