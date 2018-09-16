@@ -1,18 +1,22 @@
 import React, {Component} from 'react';
 import header from '../images/ocean.jpg'
-import {SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST } from '../constants/navbarConstants'
+import { SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, HOMEPAGE_CONST } from '../constants/navbarConstants'
 import ocean from '../images/ocean.jpg'
 import ocean2 from '../images/ocean2.jpg'
+import lads from '../images/dorabros.png'
 
 
 export default class Sponsorship extends Component {
     constructor(){
         super()
+
     }
 
     componentWillMount(){
         this.props.updateHeaderImage(header)
     }
+
+
 
 
   render(){
@@ -75,7 +79,7 @@ export default class Sponsorship extends Component {
                     <br/>
                     <br/>
                     <br/>
-                    <a href="/#svg">
+                    <a href="/#headerImage">
                         <button onClick={() => this.props.updatePage(SPONSORSHIP_CORPORATE_CONST, ocean2)}
                         className="btn " style={
                             {
@@ -96,6 +100,8 @@ export default class Sponsorship extends Component {
                         </button>
                     </a>
                     </div>
+
+
             </div>
         </div>
         <br />

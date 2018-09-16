@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Progress from '../containers/ProgressContainer';
+
 
 
 export default class HomepageCause extends Component {
@@ -18,7 +18,7 @@ export default class HomepageCause extends Component {
           in 2019, the Dorabros will take up a gauntlet of challenges: <br />Kicking off with an ultramarathon in the Sahara - the infamous Marathon des Sables - and ending with the World's Toughest row - a 3000 mile rowing race across the Atlantic
           </div>
           <br />
-          <Progress />
+
             <div className="text-center text-block" style={{"textAlign":"center"}}>
 
             </div>

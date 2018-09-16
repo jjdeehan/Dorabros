@@ -34,7 +34,7 @@ export default class Sponsorship extends Component {
 		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"Your company logo will be showcased as a “Platinum Arowana” partner on our website homepage."}
 		        	</ul>
 		        	<br/>		        	
-		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"Opportunity to name our boat (an additional fee of 2000 would be required) "}
+		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"Opportunity to name our boat (an additional fee of £2,000 would be required) "}
 		        	</ul>
 		        	<br/>
 	        	</ol>

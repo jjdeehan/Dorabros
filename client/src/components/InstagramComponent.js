@@ -4,6 +4,8 @@ import InstagramIcon from '../images/instagram.png'
 
 
 export default class Instagram extends Component {
+
+
   render(){
     return(
       <div>
@@ -13,7 +15,7 @@ export default class Instagram extends Component {
         <img src={InstagramIcon} style={{heigth:"100px", width:"300px", display:"block", margin:"auto"}} />
       </div>
       <div style={{margin:"0 auto"}} className="container">
-          <div id={"instafeedTarget"} className="row">
+          <div id="instafeedTarget" className="row">
       <Instafeed className="row"
         limit='3'
         ref='instafeed'

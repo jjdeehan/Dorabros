@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 import Dorabro from '../components/DorabroComponent'
+import { updatePage } from '../ActionCreators/navbarActionCreators'
 
 
 
@@ -8,7 +9,7 @@ const mapState = (state, ownProps) => ({
 })
 
 const mapDispatch = (dispatch, ownProps) => ({
-
+updatePage: (newPage, imageSource) => dispatch(updatePage(newPage, imageSource))
 });
 
 export default connect(mapState, mapDispatch)(Dorabro);

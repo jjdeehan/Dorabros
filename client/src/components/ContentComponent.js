@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 
-import { CHALLENGE_CONST,  CAUSE_CONST, CREW_CONST, SPONSORSHIP_CONST, CONTACT_CONST, HOMEPAGE_CONST, SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST } from '../constants/navbarConstants'
+import { CHALLENGE_CONST,  CAUSE_CONST, CREW_CONST, SPONSORSHIP_CONST, CONTACT_CONST, HOMEPAGE_CONST, SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, JOIN_250_CONST } from '../constants/navbarConstants'
 
 import HomepageContainer from '../containers/HomepageContainer'
 
@@ -12,6 +12,7 @@ import SponsorshipContainer from '../containers/SponsorshipContainer'
 import SponsorshipSecondLevelContainer from '../containers/SponsorshipSecondLevelContainer'
 import ContactContainer from '../containers/ContactContainer'
 import SponsorshipCorporateContainer from '../containers/SponsorshipCorporateContainer'
+import Sponsorship250Container from '../containers/Sponsorship250Container'
 
 
 export default class Content extends Component {
@@ -40,6 +41,11 @@ export default class Content extends Component {
         this.props.page == SPONSORSHIP_CORPORATE_CONST
         &&
         <SponsorshipCorporateContainer />
+      }
+      {
+        this.props.page == JOIN_250_CONST
+        &&
+        <Sponsorship250Container />
       }
 
 
