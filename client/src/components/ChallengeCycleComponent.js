@@ -97,10 +97,10 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		    <h3 className="vertical-timeline-element-title">Fundraiser Ball</h3>
+		    <h3 className="vertical-timeline-element-title">Fundraising Ball</h3>
 		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
 		    <p>
-		      The Dorabros will be hosting a Fundraiser Ball in London for those who are keen to support the great work of the Teenage Cancer Trust
+		      The Dorabros will be hosting a Fundraising Ball in London for those who are keen to support the great work of the Teenage Cancer Trust
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -126,7 +126,7 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Talisker Whisky Atlantic Challenge</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Atlantic Ocean</h4>
 		    <p>
-		      The final chapter in this adventure, we will be rowing across the Atlatic from La Gomera, off the coast of Africa to Antigua in the Carribbean
+		      The final chapter in this adventure, we will be rowing across the Atlatic from La Gomera, off the coast of Africa to Antigua in the Caribbean
 		    </p>
 		  </VerticalTimelineElement>
 		</VerticalTimeline>

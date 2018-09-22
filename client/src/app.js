@@ -7,7 +7,7 @@ import { Route } from 'react-router-dom'
 
 import ocean from './images/ocean.jpg'
 import ocean2 from './images/ocean2.jpg'
-import lads from './images/Lads.png'
+import lads from './images/Lads.jpg'
 
 import SponsorshipContainer from './containers/SponsorshipContainer'
 import SponsorshipSecondLevelContainer from './containers/SponsorshipSecondLevelContainer'

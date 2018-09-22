@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import Person from '../containers/PersonContainer'
 import Title from '../containers/TitleContainer'
-import Lirim from '../images/Lirim.png'
-import Charlie from '../images/Charlie.png'
-import James from '../images/James.png'
+import Lirim from '../images/Lirim.jpg'
+import Charlie from '../images/Charlie.jpg' 
+import Rufus from '../images/Rufus.jpg'
+import James from '../images/James.jpg'
 
 export default class Crew extends Component {
 	constructor(){
@@ -29,9 +30,9 @@ export default class Crew extends Component {
 				name:"Lirim",
 				job:"Chef",
 				lookingForwardTo:"Stories for the Grandchildren",
-				crewmatesDescription:"A big old softie with a big old heart",
+				crewmatesDescription:"",
 				dreading:"Charlie's chat",
-				desertIslandDisk:"Taddy Porter - In the morning",
+				desertIslandDisk:"Taddy Porter - In the Morning",
 				greatestFear:"Liam Neeson",
 				age:"23",
 				imageSource:[Lirim,""],
@@ -47,7 +48,7 @@ export default class Crew extends Component {
 				crewmatesDescription:"Canon",
 				dreading:"The anticipation",
 				greatestFear:"Open water",
-				desertIslandDisk:"",
+				desertIslandDisk:"Something inside (So strong) - Labi Siffre",
 				goingToStruggleWithout:"Natalie",
 				age:"24",
 				imageSource:[Charlie,"https://preview.ibb.co/c8nFPT/Screen_Shot_2018_07_31_at_13_53_09.png"],
@@ -55,6 +56,21 @@ export default class Crew extends Component {
 				favouriteMovie:"Titanic II",
 				onScreenHero:"",
 				IG_Link:"https://www.instagram.com/charliecrane94"
+					},{
+				name:"Rufus",
+				job:"student",
+				lookingForwardTo:"Sending it",
+				crewmatesDescription:"",
+				dreading:"Sleeping in a cabin with James",
+				greatestFear:"Arriving without a beard",
+				desertIslandDisk:"Pony - Ginuwine",
+				goingToStruggleWithout:"",
+				age:"25",
+				imageSource:[Rufus,""],
+				howWouldYourFriendsDescribeYou:"",
+				favouriteMovie:"Emperor's New Groove",
+				onScreenHero:"Magic Mike",
+				IG_Link:"https://www.instagram.com/rufusscholefield/"
 					}]
 			}
 	}

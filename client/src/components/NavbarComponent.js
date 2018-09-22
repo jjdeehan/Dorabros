@@ -4,6 +4,7 @@ import { HOMEPAGE_CONST, SPONSORSHIP_CONST, CAUSE_CONST, CHALLENGES_CONST, FOLLO
 import lads from '../images/dorabros.png'
 import ocean from '../images/ocean.jpg'
 import { Link, browserHistory, Route, Switch, browserRouter as Router } from 'react-router-dom'
+import TCT from '../images/InAidOf_TCT.jpg'
 
 import HeaderImage from '../containers/HeaderImageContainer';
 import Content from '../containers/ContentContainer';
@@ -31,28 +32,52 @@ export default class Example extends React.Component {
         <div>
 
         <Menu isOpen={this.state.isOpen}>
-        
+          <br/>
           <a onClick={() => this.itemClicked()} href={"/#headerImage"} id="home" style={{color:"white"}} className="menu-item">
-          <h1>Home</h1>
+          <h3>HOME</h3>
           </a>
-          <hr  style={{backgroundColor:"white", width:"60%", float:"left", height:1}}/>
+          <hr  style={{backgroundColor:"white", width:"80%", float:"left", height:1}}/>
           <a onClick={() => this.itemClicked()} href={"/#Cause"} id="about" style={{color:"white"}} className="menu-item" >
-          <h1>Cause</h1>
+          <h3>CAUSE</h3>
           </a>
-          <hr style={{backgroundColor:"white", width:"60%", float:"left", height:1}}/>
+          <hr style={{backgroundColor:"white", width:"80%", float:"left", height:1}}/>
           <Link  onClick={this.itemClicked} to="/sponsorship">
 
             <div id="sponsorship" style={{color:"white"}} className="menu-item">
-            <h1>Sponsorship</h1>
+            <h3>SPONSORSHIP</h3>
             </div>
           </Link>          
-          <hr  style={{backgroundColor:"white", width:"60%", float:"left", height:1}}/>
+          <hr  style={{backgroundColor:"white", width:"80%", float:"left", height:1}}/>
           <a onClick={() => this.itemClicked()} href={"/#Challenges"} id="contact" style={{color:"white"}} className="menu-item">
-          <h1>Events</h1></a>
-                    <hr  style={{backgroundColor:"white", width:"60%", float:"left", height:1}}/>
+          <h3>EVENTS</h3></a>
+                    <hr  style={{backgroundColor:"white", width:"80%", float:"left", height:1}}/>
           
           <a href={"https://www.instagram.com/dorabros/?hl=en"} id="contact" target="_blank" style={{color:"white"}} className="menu-item">
-          <h1>Follow us</h1></a>
+          <h3>FOLLOW US</h3>
+          </a>
+
+          <hr  style={{backgroundColor:"white", width:"80%", float:"left", height:1}}/>
+          <br />
+          <br />
+          <div style={{position:"absolute", height:40, width:90}}>
+            <div style={{float:"left", display:"block",height:40, width:40}}>
+            <a href={"https://www.instagram.com/dorabros/?hl=en"} >
+              <div style={{height:40, width:40}}>
+              <img style={{height:40, width:40}} src={"https://d1afx9quaogywf.cloudfront.net/sites/default/files/Logos/Instagram-v051916_0.png"} />
+              </div>   
+            </a>          
+            </div>
+            <div style={{float:"right",display:"block",height:40, width:40}}>
+            <a href={"https://www.facebook.com/dorabros/"}>
+              <div style={{height:40, width:40}}>
+              <img style={{height:40, width:40}} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/534px-F_icon.svg.png"} />
+              </div>   
+            </a>
+            </div>
+          </div>
+
+
+          <div style={{position:"absolute", top:window.screen.availHeight-158}}><img style={{width:220, height:135}} src={TCT}/></div>
 
         </Menu>
         </div>

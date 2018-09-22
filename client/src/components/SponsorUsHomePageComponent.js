@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { SPONSORSHIP_CONST } from '../constants/navbarConstants'
-
+import { Link } from 'react-router-dom'
 
 export default class SponsorUs extends Component {
 
@@ -42,7 +42,8 @@ export default class SponsorUs extends Component {
         	<br/>
         	<br/>
         	<br/>
-        		<button onClick={() => this.props.updatePage(SPONSORSHIP_CONST)} className="btn" style={
+            <Link to="/sponsorship">
+        		<button className="btn" style={
         			{
         				textAlign:"center", 
         				marginLeft:"30%", 
@@ -59,6 +60,7 @@ export default class SponsorUs extends Component {
         		}>
 	        			{"HELP US MAKE IT HAPPEN"}
         		</button>
+            </Link>
         	</div>
         </div>
         <br/>

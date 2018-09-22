@@ -65,7 +65,7 @@ export default class Sponsorship extends Component {
 		        	<br/>
 		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"The Dorabros will attend any publicity or promotional events pre and post race."}</ul>
 		        	<br/>
-		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"The Dorabros can offer 1 space on our boat to join us (and spectate) as we swim across the channel. You are free to document our crossing. (An additional 2000 would be required)"}</ul>
+		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"The Dorabros can offer 1 space on our boat to join us (and spectate) as we swim across the channel. You are free to document our crossing. (An additional £2,000 would be required)"}</ul>
 		        	<br/>
 		        	<ul style={{display:"list-item", lineHeight:"22px"}}>{"You are invited as our esteemed guests to our fundraiser ball and will have a complete company table "}</ul>
 		        	<br/>

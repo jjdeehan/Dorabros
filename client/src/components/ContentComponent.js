@@ -22,7 +22,6 @@ export default class Content extends Component {
 	}
 
   render(){
-    console.log('content render')
     return(
       <div>
       {

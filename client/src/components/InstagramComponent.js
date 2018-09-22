@@ -11,7 +11,6 @@ export default class Instagram extends Component {
       <div>
       <a href={"https://www.instagram.com/dorabros/?hl=en"} target="_blank">
       <div style={{margin:"0 auto"}}>
-        
         <img src={InstagramIcon} style={{heigth:"100px", width:"300px", display:"block", margin:"auto"}} />
       </div>
       <div style={{margin:"0 auto"}} className="container">

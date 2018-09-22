@@ -5,7 +5,7 @@
     url("../fonts/BebasNeue-Regular.otf") format('opentype'),
     url("../fonts/BebasNeue.eot"),
     url("../fonts/BebasNeue.svg") format('svg'),
-    url("../fonts/BebasNeue.woff") format('woff'), 
+    url("../fonts/BebasNeue.woff") format('font-woff'), 
     url("../fonts/BebasNeue.woff2") format('woff2'), 
     ;
 }
@@ -405,14 +405,14 @@ body{
 }
 
 .vertical-timeline-element-date span{
-	color:"#06275b";
+	color:"#1c1c1c";
 	z-index:1000;
 	opacity:1;
 }
 
 
 .vertical-timeline-element-content.vertical-timeline-element-date span{
-	background-color:"#06275b";
+	background-color:"#1c1c1c";
 	opacity:1
 }
 
@@ -511,7 +511,7 @@ body{
 }
 
 .section-main-container {
-  background: #06275b;
+  background: #1c1c1c;
   position: relative;
   z-index:20;
 }
@@ -527,7 +527,7 @@ body{
   top: -36px;
   width: 100%;
   height: 100px;
-  background: #06275b;
+  background: #1c1c1c;
   -webkit-transform: skewY(2.5deg);
   -moz-transform: skewY(2.5deg);
   -ms-transform: skewY(2.5deg);
@@ -543,7 +543,7 @@ body{
   bottom: -36px;
   width: 100%;
   height: 200px;
-  background: #06275b;
+  background: #1c1c1c;
   -webkit-transform: skewY(-2.5deg);
   -moz-transform: skewY(-2.5deg);
   -ms-transform: skewY(-2.5deg);
@@ -559,7 +559,7 @@ body{
 }
 
 .section-main-container-cause {
-  background: #06275b;
+  background: #1c1c1c;
   position: relative;
   z-index:-1;
 }
@@ -571,7 +571,7 @@ body{
   bottom: -36px;
   width: 100%;
   height: 600px;
-  background: #06275b;
+  background: #1c1c1c;
   -webkit-transform: skewY(-2.5deg);
   -moz-transform: skewY(-2.5deg);
   -ms-transform: skewY(-2.5deg);
@@ -583,7 +583,7 @@ body{
 
 
 .section-main-container-progress {
-  background: #06275b;
+  background: #1c1c1c;
   position: relative;
   z-index:-1;
 }
@@ -596,7 +596,7 @@ body{
   bottom: 36px;
   width: 100%;
   height: 600px;
-  background: #06275b;
+  background: #1c1c1c;
   -webkit-transform: skewY(-2.5deg);
   -moz-transform: skewY(-2.5deg);
   -ms-transform: skewY(-2.5deg);
@@ -623,7 +623,7 @@ section {
 
 
 .vertical-timeline-element-date{
-	background-color:#06275b;
+	background-color:#1c1c1c;
 	margin:"auto";
 }
 
@@ -726,7 +726,7 @@ section {
 
 /* General sidebar styles */
 .bm-menu {
-  background: #06275b;
+  background: #1c1c1c;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
