@@ -15,8 +15,8 @@ import './public/stylesheets/index.scss';
 
 ReactDOM.render(
   (<Provider store={store} >
-    <BrowserRouter history={history}>
-        <App />
+    <BrowserRouter>
+    	<Route path="/" component={App} />
     </BrowserRouter>
   </Provider>),
   document.getElementById('app'));

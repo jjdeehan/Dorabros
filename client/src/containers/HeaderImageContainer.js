@@ -4,7 +4,7 @@ import HeaderImage from '../components/HeaderImageComponent'
 
 
 const mapState = (state, ownProps) => ({
-	imageSource: state.navbarReducer.headerImageSource
+	imageSource: ownProps.source
 })
 
 const mapDispatch = (dispatch, ownProps) => ({

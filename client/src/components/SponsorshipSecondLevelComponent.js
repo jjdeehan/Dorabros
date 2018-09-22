@@ -47,7 +47,7 @@ export default class Sponsorship extends Component {
 </form>
 <br />
 <div style={{textAlign:"center", width:"60%", marginLeft:"20%"}}>
-<div>{"Joining the 250 club will "}
+<div>{""}
 </div>
 <hr />
 </div>

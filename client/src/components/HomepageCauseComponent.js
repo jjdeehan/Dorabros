@@ -11,10 +11,10 @@ export default class HomepageCause extends Component {
 		  <main className="section-main-cause">
 		  <div className="section-main-container-cause
 		  "><br />
-		            <div id="Reason" className=" blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
+		            <div id="Reason" className=" blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%"}}>
           Brought together by a thirst for challenge and a desire to do something worthwhile;
           </div>
-          <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%", "fontFamily":"adobe-garamond-pro"}}>
+          <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%"}}>
           in 2019, the Dorabros will take up a gauntlet of challenges: <br />Kicking off with an ultramarathon in the Sahara - the infamous Marathon des Sables - and ending with the World's Toughest row - a 3000 mile rowing race across the Atlantic
           </div>
           <br />

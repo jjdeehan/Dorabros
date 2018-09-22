@@ -1,21 +1,20 @@
 import React, {Component} from 'react';
 import header from '../images/ocean.jpg'
-import { SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, HOMEPAGE_CONST } from '../constants/navbarConstants'
+import { SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, HOMEPAGE_CONST, SPONSORSHIP_CONST } from '../constants/navbarConstants'
 import ocean from '../images/ocean.jpg'
 import ocean2 from '../images/ocean2.jpg'
 import lads from '../images/dorabros.png'
+import {Link, browserHistory} from 'react-router-dom';
 
 
 export default class Sponsorship extends Component {
     constructor(){
         super()
-
     }
 
     componentWillMount(){
-        this.props.updateHeaderImage(header)
+        this.props.updatePage(SPONSORSHIP_CONST, header)
     }
-
 
 
 
@@ -31,9 +30,10 @@ export default class Sponsorship extends Component {
                 <br/>
                 <br/>
                     <div>
-                    <a>
+
+                    <Link to="/sponsorship/dorabros">
                     <button 
-                        onClick={() => this.props.updatePage(SPONSORSHIP_SECOND_LEVEL_CONST, ocean)}
+                        
                         className="btn " 
                     style={
                         {
@@ -52,7 +52,8 @@ export default class Sponsorship extends Component {
                     }>
                             {"HELP US GET TO THE START LINE"}
                     </button>
-                    </a>
+                    </Link>
+
                     <br/>
                     <br/>
                     <br/>
@@ -79,8 +80,9 @@ export default class Sponsorship extends Component {
                     <br/>
                     <br/>
                     <br/>
-                    <a href="/#headerImage">
-                        <button onClick={() => this.props.updatePage(SPONSORSHIP_CORPORATE_CONST, ocean2)}
+
+                        <Link to="/sponsorship/corporate">
+                        <button 
                         className="btn " style={
                             {
                                 textAlign:"center", 
@@ -98,7 +100,8 @@ export default class Sponsorship extends Component {
                         }>
                                 {"CORPORATE SPONSORS"}
                         </button>
-                    </a>
+                        </Link>
+
                     </div>
 
 

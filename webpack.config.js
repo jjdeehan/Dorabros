@@ -5,6 +5,7 @@ module.exports = {
 
   entry: './client/src/index.js',
   output: {
+    publicPath:"/",
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'client/src/public/dist')
   },
@@ -30,6 +31,10 @@ module.exports = {
         'css-loader',
         'sass-loader'
       ]
+    },
+    {    
+      test: /\.(woff|woff2|eot|ttf|otf)$/,
+      loader: "file-loader"
     },
     {
     test: /\.(gif|png|jpe?g|jpg|svg)$/i,

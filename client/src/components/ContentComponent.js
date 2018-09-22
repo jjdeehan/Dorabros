@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import { BrowserRouter as Router, Route, Link, Prompt } from "react-router-dom";
 
 import { CHALLENGE_CONST,  CAUSE_CONST, CREW_CONST, SPONSORSHIP_CONST, CONTACT_CONST, HOMEPAGE_CONST, SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, JOIN_250_CONST } from '../constants/navbarConstants'
 
 import HomepageContainer from '../containers/HomepageContainer'
-
 import ChallengeContainer from '../containers/ChallengeContainer'
 import CauseContainer from '../containers/CauseContainer'
 import CrewContainer from '../containers/CrewContainer'
@@ -22,15 +22,18 @@ export default class Content extends Component {
 	}
 
   render(){
+    console.log('content render')
     return(
       <div>
       {
-      	(this.props.page == null || this.props.page == HOMEPAGE_CONST) && <HomepageContainer />
+        (this.props.page == HOMEPAGE_CONST  || !this.props.page)
+        &&
+        <HomepageContainer />
       }
       {
       	this.props.page == SPONSORSHIP_CONST
       	&&
-      	<SponsorshipContainer />
+        <SponsorshipContainer/>
       }
       {
         this.props.page == SPONSORSHIP_SECOND_LEVEL_CONST 
@@ -47,9 +50,12 @@ export default class Content extends Component {
         &&
         <Sponsorship250Container />
       }
-
-
       </div>
     )
   }
 }
+
+
+/*{
+        (this.props.page == null || this.props.page == HOMEPAGE_CONST)  
+      }*/

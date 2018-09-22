@@ -4,7 +4,7 @@ import Content from '../components/ContentComponent'
 
 
 const mapState = (state, ownProps) => ({
-	page:state.navbarReducer.view
+	page:ownprops.section
 })
 
 const mapDispatch = (dispatch, ownProps) => ({
