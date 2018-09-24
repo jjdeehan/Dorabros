@@ -7,7 +7,6 @@ export default class HeaderImage extends Component {
 	}
 
   render(){
-    console.log(this)
     return(
       <div>
       {this.props.imageSource &&

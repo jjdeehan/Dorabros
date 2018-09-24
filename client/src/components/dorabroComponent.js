@@ -12,9 +12,9 @@ export default class Template extends Component {
 
   render(){
 
-  	let dorabroColour = "black"
+  	let dorabroColour = "white"
   	if(this.props.headerImage){
-  		dorabroColour = "white"
+  		dorabroColour = "black"
   	}
     return(
       <div  onClick={() => this.props.updatePage(HOMEPAGE_CONST,dorabros)}style={{position:"absolute", top:-20,right:-50}}>

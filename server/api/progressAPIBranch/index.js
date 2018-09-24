@@ -15,9 +15,10 @@ router.get('/', (req, res, next) => {
 			const target = obj.pageDetails[0].targetAmount
 			const value = JSON.stringify([raised,target])
 			res.send(value)
-			fs.writeFile(__dirname + '/../../../client/src/utils/progressValue.txt', value )
+			//fs.writeFile(__dirname + '/../../../client/src/utils/progressValue.txt', value )
 		} else {
-			res.send(fs.readFile(__dirname+'/../../../client/src/utils/progressValue.txt'))
+			//res.send(fs.readFile(__dirname+'/../../../client/src/utils/progressValue.txt'))
+			res.send(JSON.stringify([50,50000]))
 		}
 
 	})

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import SponsorUsHomepage from '../components/SponsorUsHomepageComponent'
+import SponsorUsHomepage from '../components/SponsorUsHomePageComponent'
 import { checkProgress } from '../actionCreators/progressActionCreators'
 import { updatePage } from '../actionCreators/navbarActionCreators'
 

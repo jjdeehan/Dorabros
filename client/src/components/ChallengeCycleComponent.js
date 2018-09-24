@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import VerticalTimelineElement from './reacttimelineelement'
-import MdSLogo from '../images/MdSLogo.png'
+import MdSLogo from '../images/MdSlogo.png'
 import LM from '../images/LM.png'
 import IM from '../images/IM.png'
 import CS from '../images/CS.png'

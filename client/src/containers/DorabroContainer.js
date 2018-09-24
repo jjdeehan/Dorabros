@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import Dorabro from '../components/DorabroComponent'
-import { updatePage } from '../ActionCreators/navbarActionCreators'
+import Dorabro from '../components/dorabroComponent'
+import { updatePage } from '../actionCreators/navbarActionCreators'
 
 
 
