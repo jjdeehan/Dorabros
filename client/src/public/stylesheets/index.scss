@@ -1,12 +1,11 @@
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue.eot'),
-     url("../fonts/BebasNeue-Regular.ttf") format('truetype'),
-    url("../fonts/BebasNeue-Regular.otf") format('opentype'),
-    url("../fonts/BebasNeue.eot"),
-    url("../fonts/BebasNeue.svg") format('svg'),
-    url("../fonts/BebasNeue.woff") format('font-woff'), 
-    url("../fonts/BebasNeue.woff2") format('woff2'), 
+    src: url("/fonts/BebasNeue.ttf") format('truetype'),
+    url("/fonts/BebasNeue-Regular.otf") format('opentype'),
+    url("/fonts/BebasNeue.eot") format("embedded-opentype"),
+    url("/fonts/BebasNeue.svg") format('svg'),
+    url("/fonts/BebasNeue.woff") format('woff'), 
+    url("/fonts/BebasNeue.woff2") format('woff2'), 
     ;
 }
 
@@ -356,10 +355,10 @@ body{
 }
 @media only screen and (min-width:1170px) {.vertical-timeline-element-content {margin-left:0;padding:1.5em;width:45%}
 .vertical-timeline-element-content::before {top:24px;left:100%;border-color:transparent;border-left-color:#fff}
-.vertical-timeline-element-content .vertical-timeline-element-date {position:absolute;width:100%;left:109%;top:6px;font-size:16px;font-size:1rem;color:white; text-align: center;}
+.vertical-timeline-element-content .vertical-timeline-element-date {position:absolute;width:100%;left:100%;top:6px;font-size:16px;font-size:1rem;color:white; text-align: center;}
 .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content {float:right}
 .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content::before {top:24px;left:auto;right:100%;border-color:transparent;border-right-color:#fff}
-.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {left:auto;right:109%;color:white}
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {left:auto;right:100%;color:white}
 }
 .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {visibility:hidden}
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {visibility:visible;-webkit-animation:cd-bounce-2 .6s;-moz-animation:cd-bounce-2 .6s;animation:cd-bounce-2 .6s}

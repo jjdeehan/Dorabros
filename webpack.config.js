@@ -5,7 +5,7 @@ module.exports = {
 
   entry: './client/src/index.js',
   output: {
-    publicPath:"/",
+    publicPath:"https://dorabros.com/public",
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'client/src/public/dist')
   },
