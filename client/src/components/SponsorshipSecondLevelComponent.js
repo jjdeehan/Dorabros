@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { JOIN_250_CONST, SPONSORSHIP_CONST } from '../constants/navbarConstants'
-import image from '../images/blue.jpg'
-import ocean from '../images/ocean.jpg'
+const image = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/blue.jpg'
+const ocean = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean.jpg'
 
 
 export default class Sponsorship extends Component {

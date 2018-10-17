@@ -1,10 +1,10 @@
 import { slide as Menu } from 'react-burger-menu'
 import React from 'react'
 import { HOMEPAGE_CONST, SPONSORSHIP_CONST, CAUSE_CONST, CHALLENGES_CONST, FOLLOW_US_CONST} from '../constants/navbarConstants'
-import lads from '../images/dorabros.png'
-import ocean from '../images/ocean.jpg'
+const lads = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/dorabros.png'
+const ocean = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean.jpg'
 import { Link, browserHistory, Route, Switch, browserRouter as Router } from 'react-router-dom'
-import TCT from '../images/InAidOf_TCT.jpg'
+const TCT = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/InAidOf_TCT.jpg'
 
 import HeaderImage from '../containers/HeaderImageContainer';
 import Content from '../containers/ContentContainer';

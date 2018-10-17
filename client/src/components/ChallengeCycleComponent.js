@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import VerticalTimelineElement from './reacttimelineelement'
-import MdSLogo from '../images/MdSlogo.png'
-import LM from '../images/LM.png'
-import IM from '../images/IM.png'
-import CS from '../images/CS.png'
-import TWAC from '../images/TWAC.jpg'
+const MdSLogo = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/MdSlogo.png'
+const LM = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/LM.png'
+const IM = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/IM.png'
+const CS = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/CS.png'
+const TWAC = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/TWAC.jpg'
 // hex color green #62ee1f
 // blue #0135fd
 // yellow #faf503

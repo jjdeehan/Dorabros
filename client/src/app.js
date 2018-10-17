@@ -1,20 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Navbar from './containers/NavbarContainer';
-import ChallengeCycle from './containers/ChallengeCycleContainer';
+import ChallengeCycle from './components/ChallengeCycleComponent';
 import Dorabro from './containers/DorabroContainer';
 import { Route } from 'react-router-dom'
 
-import ocean from './images/ocean.jpg'
-import ocean2 from './images/ocean2.jpg'
-import lads from './images/Lads.jpg'
+const ocean = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean.jpg'
+const ocean2 = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean2.jpg'
+const lads = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Lads.jpg'
 
 import SponsorshipContainer from './containers/SponsorshipContainer'
 import SponsorshipSecondLevelContainer from './containers/SponsorshipSecondLevelContainer'
 import SponsorshipCorporateContainer from './containers/SponsorshipCorporateContainer'
-import Sponsorship250Container from './containers/Sponsorship250Container'
+import Sponsorship250Container from './components/Sponsorship250Component'
 import HeaderImage from './containers/HeaderImageContainer'
-import HomepageContainer from './containers/HomepageContainer'
+import HomepageContainer from './components/HomepageComponent'
  
 //load components
 

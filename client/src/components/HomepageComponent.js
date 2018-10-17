@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-import ChallengeCycle from '../containers/ChallengeCycleContainer';
-import HomepageShortProse from '../containers/HomepageShortProseContainer';
-import Instagram from '../containers/InstagramContainer';
-import HomepageCause from '../containers/HomepageCauseContainer';
-import HomepageCrew from '../containers/HomepageCrewContainer';
-import HomepageSponsorship from '../containers/HomepageSponsorshipContainer';
-import HomepageContact from '../containers/HomepageContactContainer';
+import ChallengeCycle from './ChallengeCycleComponent';
+import HomepageShortProse from './HomepageShortProseComponent';
+import Instagram from './InstagramComponent';
+import HomepageCause from './HomepageCauseComponent';
+import HomepageCrew from './HomepageCrewComponent';
+import HomepageSponsorship from './HomepageSponsorshipComponent';
+import HomepageContact from './ContactUsComponent';
 import SponsorUsHomepage from '../containers/SponsorUsHomepageContainer';
 import InstagramEmbed from 'react-instagram-embed';
 

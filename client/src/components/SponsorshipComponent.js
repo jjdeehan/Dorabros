@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import header from '../images/ocean.jpg'
+const header = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean.jpg'
 import { SPONSORSHIP_SECOND_LEVEL_CONST, SPONSORSHIP_CORPORATE_CONST, HOMEPAGE_CONST, SPONSORSHIP_CONST } from '../constants/navbarConstants'
-import ocean from '../images/ocean.jpg'
-import ocean2 from '../images/ocean2.jpg'
-import lads from '../images/dorabros.png'
+const ocean = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean.jpg'
+const ocean2 = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/ocean2.jpg'
+const lads = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/dorabros.png'
 import {Link, browserHistory} from 'react-router-dom';
 
 

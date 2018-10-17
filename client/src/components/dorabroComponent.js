@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import dorabros from '../images/dorabros.png'
+const dorabros = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/dorabros.png'
 import { HOMEPAGE_CONST } from '../constants/navbarConstants'
 
 

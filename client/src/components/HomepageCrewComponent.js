@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import HomepageTitle from '../containers/HomepageTitleContainer'
-import Crew from '../containers/CrewContainer'
+import Crew from './CrewComponent'
 
 export default class HomepageCrew extends Component {
   render(){

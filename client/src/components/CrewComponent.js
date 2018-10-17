@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import Person from '../containers/PersonContainer'
 import Title from '../containers/TitleContainer'
-import Lirim from '../images/Lirim.jpg'
-import Charlie from '../images/Charlie.jpg' 
-import Rufus from '../images/Rufus.jpg'
-import James from '../images/James.jpg'
+const Lirim = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Lirim.jpg'
+const Charlie = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Charlie.jpg' 
+const Rufus = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Rufus.jpg'
+const James = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/James.jpg'
 
 export default class Crew extends Component {
 	constructor(){

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ChallengeCycle from '../containers/ChallengeCycleContainer'
+import ChallengeCycle from './ChallengeCycleComponent'
 
 
 export default class Challenge extends Component {

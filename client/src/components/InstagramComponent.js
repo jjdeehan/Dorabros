@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Instafeed from 'react-instafeed'
-import InstagramIcon from '../images/instagram.png'
+const InstagramIcon ='http://dorabros.s3-website-us-east-1.amazonaws.com/images/instagram.png'
 
 
 export default class Instagram extends Component {

@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'BebasNeue';
-    src: url("/fonts/BebasNeue.ttf") format('truetype'),
+    src: url('/fonts/BebasNeue.eot');
+    src: url("/fonts/BebasNeue-Regular.ttf") format('truetype'),
     url("/fonts/BebasNeue-Regular.otf") format('opentype'),
-    url("/fonts/BebasNeue.eot") format("embedded-opentype"),
+    url("/fonts/BebasNeue.eot"),
     url("/fonts/BebasNeue.svg") format('svg'),
-    url("/fonts/BebasNeue.woff") format('woff'), 
+    url("/fonts/BebasNeue.woff") format('font-woff'), 
     url("/fonts/BebasNeue.woff2") format('woff2'), 
     ;
 }
@@ -355,10 +356,10 @@ body{
 }
 @media only screen and (min-width:1170px) {.vertical-timeline-element-content {margin-left:0;padding:1.5em;width:45%}
 .vertical-timeline-element-content::before {top:24px;left:100%;border-color:transparent;border-left-color:#fff}
-.vertical-timeline-element-content .vertical-timeline-element-date {position:absolute;width:100%;left:100%;top:6px;font-size:16px;font-size:1rem;color:white; text-align: center;}
+.vertical-timeline-element-content .vertical-timeline-element-date {position:absolute;width:100%;left:109%;top:6px;font-size:16px;font-size:1rem;color:white; text-align: center;}
 .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content {float:right}
 .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content::before {top:24px;left:auto;right:100%;border-color:transparent;border-right-color:#fff}
-.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {left:auto;right:100%;color:white}
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date,.vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {left:auto;right:124%;color:white}
 }
 .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {visibility:hidden}
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {visibility:visible;-webkit-animation:cd-bounce-2 .6s;-moz-animation:cd-bounce-2 .6s;animation:cd-bounce-2 .6s}
@@ -621,34 +622,7 @@ section {
 
 
 
-.vertical-timeline-element-date{
-	background-color:#1c1c1c;
-	margin:"auto";
-}
 
-
-
-.vertical-timeline-element-date {
-    display: block;
-    height: 60px;
-    width: 15px;
-    line-height: 51px;
-    text-align:right;
-
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-
-    background-color: transparent;
-    color: black;
-    text-align: left;
-    font-size: 1em;
-}
-
-
-.vertical-timeline-element-content .vertical-timeline-element-date{
-	width:100%;
-
-}
 
 .vert-el{
 	max-width:90%
@@ -757,3 +731,36 @@ ul {
 list-style-position: outside;
 }
 
+.vertical-timeline{width:95%;max-width:1170px;margin:2em auto;position:relative;padding:2em 0}.vertical-timeline::after{content:'';display:table;clear:both}.vertical-timeline::before{content:'';position:absolute;top:0;left:18px;height:100%;width:4px;background:#fff}
+
+@media only screen and (min-width:1170px){.vertical-timeline{margin-top:3em;margin-bottom:3em;width:90%}.vertical-timeline:before{left:50%;margin-left:-55px}}.vertical-timeline-element{position:relative;margin:2em 0}.vertical-timeline-element>div{min-height:1px}.vertical-timeline-element:after{content:"";display:table;clear:both}.vertical-timeline-element:first-child{margin-top:0}.vertical-timeline-element:last-child{margin-bottom:0}
+
+
+.vertical-timeline-element-date{
+  background-color:#1c1c1c;
+  margin:"auto";
+}
+
+
+
+.vertical-timeline-element-date {
+    display: block;
+    height: 60px;
+    width: 15px;
+    line-height: 51px;
+    text-align:right;
+
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    font-size: 1em;
+}
+
+
+.vertical-timeline-element-content .vertical-timeline-element-date{
+  width:100%;
+
+}

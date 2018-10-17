@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TCTLogo from "../images/InAidOf_TCT.jpg";
+const TCTLogo = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/InAidOf_TCT.jpg";
 
 
 export default class HomepageShortProse extends Component {
