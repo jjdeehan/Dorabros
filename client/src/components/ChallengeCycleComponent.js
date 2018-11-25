@@ -38,31 +38,16 @@ export default class ChallengeCycle extends Component {
 		      The world's Toughest Footrace, a 280km+ Ultramarathon through the Sahara
 		    </p>
 		  </VerticalTimelineElement>
-
-
 		  <VerticalTimelineElement
-		    className="vert-el vertical-timeline-element--work"
-		    date="April 2019"
-		    iconStyle={{ color: '#fff' }}
-		    icon={<div/>}
-		  >
-		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="250" height="100" src={LM}  />
-		    <h3 className="vertical-timeline-element-title">London Marathon</h3>
-		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
-		    <p>
-		      The Dorabros will be partaking in the biggest annual sporting event in our home town
-		    </p>
-		  </VerticalTimelineElement>
-		  <VerticalTimelineElement
-		    className="vert-el vertical-timeline-element--work"
+		    className="vert-el vertical-timeline-element--education"
 		    date="May 2019"
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
-		    >
-		    <h3 className="vertical-timeline-element-title">A Task a day for the Month of May</h3>
+		  >
+		    <h3 className="vertical-timeline-element-title">Fundraising Ball</h3>
 		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
 		    <p>
-		      For the month of May, the Dorabros will be completing one task of your choosing every day
+		      The Dorabros will be hosting a Fundraising Ball in London for those who are keen to support the great work of the Teenage Cancer Trust
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -89,18 +74,6 @@ export default class ChallengeCycle extends Component {
 		    <h4 className="vertical-timeline-element-subtitle">Italy, France, England</h4>
 		    <p>
 		      The Dorabros, along with some pals, will be Cycling home from Rome
-		    </p>
-		  </VerticalTimelineElement>
-		  <VerticalTimelineElement
-		    className="vert-el vertical-timeline-element--education"
-		    date="August 2019"
-		    iconStyle={{ color: '#fff' }}
-		    icon={<div/>}
-		  >
-		    <h3 className="vertical-timeline-element-title">Fundraising Ball</h3>
-		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
-		    <p>
-		      The Dorabros will be hosting a Fundraising Ball in London for those who are keen to support the great work of the Teenage Cancer Trust
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement

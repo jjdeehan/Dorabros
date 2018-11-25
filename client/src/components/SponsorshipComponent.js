@@ -98,7 +98,7 @@ export default class Sponsorship extends Component {
                                 whiteSpace:"normal"
                             }
                         }>
-                                {"CORPORATE SPONSORS"}
+                                {"CORPORATE SPONSORSHIP PACKAGES"}
                         </button>
                         </Link>
 

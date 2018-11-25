@@ -45,20 +45,20 @@ export default class Crew extends Component {
 				name:"Charlie",
 				job:"Business Development Consultant",
 				lookingForwardTo:"Teaching the boys how to fish",
-				crewmatesDescription:"Canon",
+				crewmatesDescription:"The Colonel",
 				dreading:"The anticipation",
 				greatestFear:"Open water",
 				desertIslandDisk:"Something inside (So strong) - Labi Siffre",
-				goingToStruggleWithout:"Natalie",
+				goingToStruggleWithout:"",
 				age:"24",
 				imageSource:[Charlie,"https://preview.ibb.co/c8nFPT/Screen_Shot_2018_07_31_at_13_53_09.png"],
 				howWouldYourFriendsDescribeYou:"",
-				favouriteMovie:"Titanic II",
+				favouriteMovie:"",
 				onScreenHero:"",
 				IG_Link:"https://www.instagram.com/charliecrane94"
 					},{
 				name:"Rufus",
-				job:"student",
+				job:"Student",
 				lookingForwardTo:"Sending it",
 				crewmatesDescription:"",
 				dreading:"Sleeping in a cabin with James",
@@ -88,7 +88,6 @@ export default class Crew extends Component {
       			})
       	}
       </div>
-      <hr/>
       </div>
     )
   }

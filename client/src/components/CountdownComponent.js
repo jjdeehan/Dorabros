@@ -77,36 +77,32 @@ export default class Countdown extends Component {
     const countDown = this.state;
     return (
     <div style={{ height:"55px"}} className="row">
-      <div className="Countdown centered" style={{float:"none", margin:"0 auto", paddingTop:"20px"}}>
+      <div className="row" style={{float:"none", margin:"0 auto", paddingTop:"20px"}}>
    
-        <span className="Countdown-col">
-          <span className="Countdown-col-element" >
-              <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years - 32)}</strong>
-              <span style={{color:"white"}}>{countDown.days === 1 ? ' Day ' : ' Days '}</span>
-          </span>
-        </span>
+        
+          <div className="col-" style={{textAlign:"center"}} >
+              <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years - 32)}</div>
+              <div style={{color:"white"}}>{countDown.days === 1 ? ' Day ' : ' Days '}</div>
+          </div>
 
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.hours+5)}</strong>
-            <span style={{color:"white"}}>{" Hours "}</span>
-          </span>
-        </span>
+        
+          <div className="col-" style={{textAlign:"center", paddingLeft:20}}>
+            <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.hours+5)}</div>
+            <div style={{color:"white"}}>{" Hours "}</div>
+          </div>
 
 
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.min)}</strong>
-            <span style={{color:"white"}}>{" Min "}</span>
-          </span>
-        </span>
+        
+          <div className="col-" style={{textAlign:"center", paddingLeft:20}}>
+            <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.min)}</div>
+            <div style={{color:"white"}}>{" Min "}</div>
+          </div>
 
-        <span className="Countdown-col">
-          <span className="Countdown-col-element">
-            <strong style={{color:"white"}}>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span style={{color:"white"}}>{" Sec "}</span>
-          </span>
-        </span>
+        
+          <div className="col-" style={{textAlign:"center", paddingLeft:20}}>
+            <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.sec)}</div>
+            <div style={{color:"white"}}>{" Sec "}</div>
+          </div>
       </div>
     </div>
     );

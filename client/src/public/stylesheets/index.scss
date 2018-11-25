@@ -1,13 +1,6 @@
 @font-face {
-    font-family: 'BebasNeue';
-    src: url('/fonts/BebasNeue.eot');
-    src: url("/fonts/BebasNeue-Regular.ttf") format('truetype'),
-    url("/fonts/BebasNeue-Regular.otf") format('opentype'),
-    url("/fonts/BebasNeue.eot"),
-    url("/fonts/BebasNeue.svg") format('svg'),
-    url("/fonts/BebasNeue.woff") format('font-woff'), 
-    url("/fonts/BebasNeue.woff2") format('woff2'), 
-    ;
+    font-family: 'raleway';
+    src: url("/fonts/Raleway-Regular.ttf") format('truetype');
 }
 
 
@@ -38,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  font-family:'BebasNeue', sans-serif;
+  font-family:'raleway', sans-serif;
+  letter-spacing:(0.5);
+  padding:0 !important
 }
 
 blockquote, q {
@@ -764,3 +759,19 @@ list-style-position: outside;
   width:100%;
 
 }
+
+
+.clearButton{
+  background-color:"white";
+  border:none;
+}
+
+
+
+
+
+
+
+
+
+

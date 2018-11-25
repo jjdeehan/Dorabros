@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Dorabro from "../containers/DorabroContainer"
+import Countdown from "./CountdownComponent"
 
 
 
@@ -9,15 +11,15 @@ export default class HomepageCause extends Component {
     	
     	  <div className="section-container-cause">
 		  <main className="section-main-cause">
-		  <div className="section-main-container-cause
-		  "><br />
+		  <div className="section-main-container-cause"><br />
+
+                <br />
+                <br />
 		            <div id="Reason" className=" blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%"}}>
-          Brought together by a thirst for challenge and a desire to do something worthwhile...
-          </div>
-          <div className="blockquote text-center text-block" style={{"textAlign":"center",color:"white", width:"70%"}}>
-          In 2019, the Dorabros will take up a gauntlet of challenges. <br />Kicking off with an ultramarathon in the Sahara - the infamous Marathon des Sables - and ending with the World's Toughest Row - a 3000 mile rowing race across the Atlantic - The Talisker Whisky Atlantic Challenge 
+          We are running the Sahara, swimming the Channel and rowing the Atlantic in 2019
           </div>
           <br />
+          <Countdown />
 
             <div className="text-center text-block" style={{"textAlign":"center"}}>
 

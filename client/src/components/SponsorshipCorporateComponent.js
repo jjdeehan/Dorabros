@@ -14,7 +14,7 @@ export default class Sponsorship extends Component {
 	        <br/>
 	        <br/>
 	        <div className="container">
-	        	<h1 style={{textAlign:"center"}}>{"The “Platinum Arowana” Partner: £12,000"}</h1>
+	        	<h1 style={{textAlign:"center"}}>{"Platinum Partner: £12,000"}</h1>
 	        	<h5 style={{textAlign:"center"}}>{"The Full Monty - You will have maximum exposure alongside full participation from the Dorabros throughout all of our challenges. "}</h5>
 	        	<br/>
 	        	<div style={{paddingLeft:50, paddingRight:50, }}>
@@ -76,8 +76,8 @@ export default class Sponsorship extends Component {
 		        <br/>
 		        <hr />
 		        <br />
-		       	<h1 style={{textAlign:"center"}}>{"The “Peppermint Angelfish” Partner : £8,000"}</h1>
-	        		<h5 style={{textAlign:"center"}}>{"Voluminous Branding and Publicity"}</h5>
+		       	<h1 style={{textAlign:"center"}}>{"Gold Partner : £8,000"}</h1>
+	        		<h5 style={{textAlign:"center"}}>{" Branding and Publicity"}</h5>
 	        		<br/>
 	        		<div style={{paddingLeft:50, paddingRight:50, }}>
 	        		<b>{"Branding: "}</b>
@@ -127,8 +127,8 @@ export default class Sponsorship extends Component {
 		        <hr />
 
 		        <br />
-		       	<h1 style={{textAlign:"center"}}>{"The “Golden Basslet” Partner: £4,000"}</h1>
-	        		<h5 style={{textAlign:"center"}}>{"Voluminous Branding and Publicity"}</h5>
+		       	<h1 style={{textAlign:"center"}}>{"Silver Partner: £4,000"}</h1>
+	        		<h5 style={{textAlign:"center"}}>{" Branding and Publicity"}</h5>
 	        		<br/>
 	        		<div style={{paddingLeft:50, paddingRight:50, }}>
 	        		<b>{"Branding: "}</b>
