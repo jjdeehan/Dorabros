@@ -15,14 +15,14 @@ export default class ChallengeCycle extends Component {
     return(
       <div id="Challenges">
 
-		  <div className="section-container">
+		  <div className="section-container" style={{paddingTop:10}}>
 		  <main className="section-main">
 		    <div className="section-main-container
 		  ">
 		      <section>
-		      <br />
 		      	<h1 className="TITLE" style={{textAlign:"center"}}>
 		            <a href="/" style={{color:"white"}}>EVENTS</a></h1>
+		            <hr style={{width:"25%", backgroundColor:"white"}}/>
 		<div style={{marginLeft:"10%", maxWidth:"90%"}}>
 		<VerticalTimeline >
 		  <VerticalTimelineElement
@@ -35,47 +35,39 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Marathon des Sables</h3>
 		    <h4 >Morocco</h4>
 		    <p>
-		      The world's Toughest Footrace, a 280km+ Ultramarathon through the Sahara
+		      The Marathon des Sables - The Dorabros are kicking off the campaign with a 251km footrace across the Sahara Desert. Also known as the world’s toughest footrace. This will be the opening challenge for the Dorabros that will take place in April 2019. Six marathons in Five days, great way to begin an epic year.
 		    </p>
 		  </VerticalTimelineElement>
-		  <VerticalTimelineElement
-		    className="vert-el vertical-timeline-element--education"
-		    date="May 2019"
-		    iconStyle={{ color: '#fff' }}
-		    icon={<div/>}
-		  >
-		    <h3 className="vertical-timeline-element-title">Fundraising Ball</h3>
-		    <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
-		    <p>
-		      The Dorabros will be hosting a Fundraising Ball in London for those who are keen to support the great work of the Teenage Cancer Trust
-		    </p>
-		  </VerticalTimelineElement>
-		  <VerticalTimelineElement
-		    className="vert-el vertical-timeline-element--work"
-		    date="June 2019"
-		    iconStyle={{ color: '#fff' }}
-		    icon={<div/>}
-		  >
-		  <img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="250" height="100" src={IM}  />
-		    <h3 className="vertical-timeline-element-title">IronMan</h3>
-		    <h4 className="vertical-timeline-element-subtitle">Nice, France</h4>
 
-		    <p>
-		      A 3.8 km swim in the pristine waters of the Mediterranean Sea. The 180 km bike course with 6,500 feet of challenging climbs, followed by a marathon along the Promenade des Anglais
-		    </p>
-		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
 		    className="vert-el vertical-timeline-element--education"
-		    date="August 2019"
+		    date="July 2019"
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
 		    <h3 className="vertical-timeline-element-title">Rome to home</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Italy, France, England</h4>
 		    <p>
-		      The Dorabros, along with some pals, will be Cycling home from Rome
+		      “Rome to Home” is an appropriate name for another challenge created by the Dorabros as they will be cycling from Rome to London. It is a 2100km cycling tour that will be crossing through the infamous alps.
 		    </p>
 		  </VerticalTimelineElement>
+
+
+		  <VerticalTimelineElement
+		    className="vert-el vertical-timeline-element--work"
+		    date="August 2019"
+		    iconStyle={{ color: '#fff' }}
+		    icon={<div/>}
+		  >
+		  <img  style={{float:"right", height:"auto", maxWidth:"100%", backgroundColor:"black"}} width="250" height="100" src={IM}  />
+		    <h3 className="vertical-timeline-element-title">IronMan</h3>
+		    <h4 className="vertical-timeline-element-subtitle">Vichy, France</h4>
+
+		    <p>
+		    Athletes will swim 3.8 km in the beautiful Lake Allier. The 180 km bike course in the countryside offers exceptional views of the Chaine des Volcans d’Auvergne. The day ends with a marathon run course on the shores of Lac d'Allier and through historical Vichy.
+		    </p>
+		  </VerticalTimelineElement>
+
 		  <VerticalTimelineElement
 		    className="vert-el vertical-timeline-element--education"
 		    date="September 2019"
@@ -86,7 +78,7 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Relay Swim across the Channel</h3>
 		    <h4 className="vertical-timeline-element-subtitle">English Channel</h4>
 		    <p>
-		      The Dorabros will be swimming across the channel as a team
+		      In September the Dorabros will be swimming across the English Channel. In this 21- mile swim from England to France the Dorabros will be facing freezing cold English waters with nothing but goose fat as protection.
 		    </p>
 		  </VerticalTimelineElement>
 		  <VerticalTimelineElement
@@ -99,8 +91,8 @@ export default class ChallengeCycle extends Component {
 		    <h3 className="vertical-timeline-element-title">Talisker Whisky Atlantic Challenge</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Atlantic Ocean</h4>
 		    <p>
-		      The final chapter in this adventure, we will be rowing across the Atlatic from La Gomera, off the coast of Africa to Antigua in the Caribbean
-		    </p>
+		    The final challenge the Dorabros are facing will be Rowing across the Atlantic Ocean. Rowing over 3000 nautical miles, the Dorabros will battle with sleep deprivation, hallucinations, salt sores and physical extremes inflicted by the race. The Dorabros will be alone with their thoughts and the expanse of the ocean. They have one job, which is getting the boat safely to the other side.
+		      </p>
 		  </VerticalTimelineElement>
 		</VerticalTimeline>
 		</div>

@@ -28,9 +28,11 @@ export default class Person extends Component {
 <a href={this.props.person.IG_Link} target="_blank">
       <img style={{minWidth:"200px"}} className="img-thumbnail" src={this.state.imageSource} onMouseOver={this.toggleImage} onMouseOut={this.toggleImage}/>
       </a>
-      
       <h4 style={{textAlign:"center", fontSize:40}}>{this.props.person.name}</h4>
-      <br/>
+      <br />
+      <div style={{margin:"auto", textAlign:"center"}}>
+      <img src={this.props.person.flag} style={{width:100}} />
+      </div>
       
       {
         this.props.person.age && <div style={{ fontSize:20}}>

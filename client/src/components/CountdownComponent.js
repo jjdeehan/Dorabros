@@ -81,7 +81,7 @@ export default class Countdown extends Component {
    
         
           <div className="col-" style={{textAlign:"center"}} >
-              <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years - 32)}</div>
+              {!isNaN(countDown.days) && !isNaN(countDown.years) && <div style={{color:"white", fontSize:30, fontWeight:"bold"}}>{this.addLeadingZeros(countDown.days + 365*countDown.years - 32)}</div>}
               <div style={{color:"white"}}>{countDown.days === 1 ? ' Day ' : ' Days '}</div>
           </div>
 

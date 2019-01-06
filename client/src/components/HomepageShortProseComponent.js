@@ -14,10 +14,11 @@ export default class HomepageShortProse extends Component {
   render(){
     return(
     	<div >
-      <div style={{margin:"auto", display:"block", position:"relative", textAlign:"center"}}>
-      <YouTube
+      <div style={{margin:"auto", width:"100%", display:"block", position:"relative", textAlign:"center"}}>
+      <YouTube style={{maxWidth:"100%"}}
         videoId={"GeZa_GlH8p4"}                  // defaults -> null
         id={"rtf"}                       // defaults -> null      // defaults -> ''
+        opts={{maxWidth:"100%"}}
       />
       </div>
         <div id="Cause">

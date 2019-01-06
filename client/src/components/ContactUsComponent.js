@@ -6,7 +6,7 @@ export default class Template extends Component {
     return(
       <div style={{margin:"auto", width:"50%"}}>
             <h1 className="TITLE" style={{textAlign:"center"}}>
-                <a href="/" style={{color:"black"}}>GET IN TOUCH</a></h1>
+                <a href="mailto:team@dorabros.com" style={{color:"black"}}>GET IN TOUCH</a></h1>
                 <hr style={{width:"50%"}}/>
       <br/>
       <div style={{margin:"auto", textAlign:"center"}}>

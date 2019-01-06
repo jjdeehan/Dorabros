@@ -5,6 +5,9 @@ const Lirim = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Lirim.j
 const Charlie = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Charlie.jpg' 
 const Rufus = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Rufus.jpg'
 const James = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/James.jpg'
+const uk = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/uk.png'
+const jersey = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/jersey.png'
+const kosovo = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/kosovo.png'
 
 export default class Crew extends Component {
 	constructor(){
@@ -25,7 +28,8 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"Three Idiots",
 				onScreenHero:"",
-				IG_Link:"https://www.instagram.com/jamesdeehaan"
+				IG_Link:"https://www.instagram.com/jamesdeehaan",
+				flag:uk
 					}, {
 				name:"Lirim",
 				job:"Chef",
@@ -40,7 +44,8 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"",
 				onScreenHero:"",
-				IG_Link:"https://www.instagram.com/lirimgula"
+				IG_Link:"https://www.instagram.com/lirimgula",
+				flag:kosovo
 					}, {
 				name:"Charlie",
 				job:"Business Development Consultant",
@@ -55,7 +60,8 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"",
 				onScreenHero:"",
-				IG_Link:"https://www.instagram.com/charliecrane94"
+				IG_Link:"https://www.instagram.com/charliecrane94",
+				flag:uk
 					},{
 				name:"Rufus",
 				job:"Student",
@@ -70,7 +76,8 @@ export default class Crew extends Component {
 				howWouldYourFriendsDescribeYou:"",
 				favouriteMovie:"Emperor's New Groove",
 				onScreenHero:"Magic Mike",
-				IG_Link:"https://www.instagram.com/rufusscholefield/"
+				IG_Link:"https://www.instagram.com/rufusscholefield/",
+				flag:jersey
 					}]
 			}
 	}

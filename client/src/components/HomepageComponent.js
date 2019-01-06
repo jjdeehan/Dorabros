@@ -9,6 +9,7 @@ import HomepageSponsorship from './HomepageSponsorshipComponent';
 import HomepageContact from './ContactUsComponent';
 import SponsorUsHomepage from '../containers/SponsorUsHomepageContainer';
 import InstagramEmbed from 'react-instagram-embed';
+import Sponsors from './SponsorsComponent'
 
 
 
@@ -18,7 +19,15 @@ export default class Homepage extends Component {
       <div>
         <HomepageCause />
        <br />
+       <br />
+       <br />
+       <br />
+       <br />
         <HomepageShortProse />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
                <HomepageCrew />
        <br />
@@ -26,9 +35,17 @@ export default class Homepage extends Component {
         <br />
         <Instagram />
         <br/>
+        <br />
+        <br />
 
+        <br />
 
-        
+        <Sponsors />
+       <br />
+       <br />
+
+       <br />
+       <br />
        <br />
         <HomepageContact />
        <br />
