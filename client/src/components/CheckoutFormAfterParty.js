@@ -12,12 +12,15 @@ class CheckoutForm extends Component {
           complete: false,
           ticketTotal:0,
           buttonDisabled:false,
-          email:null,
-          error:false
+          email:"",
+          error:false,
+          guestData:""
         };
         this.submit = this.submit.bind(this);
         this.updateTicketTotal = this.updateTicketTotal.bind(this)
         this.updateEmail = this.updateEmail.bind(this)
+        this.updateName = this.updateName.bind(this)
+        this.updateGuestData = this.updateGuestData.bind(this)
     }
 
     async submit(ev) {
@@ -34,7 +37,12 @@ class CheckoutForm extends Component {
                                 currency: "GBP",
                             },
                             email:this.state.email,
-                            product:"DinnerTicket"
+                            product:"AfterParty",
+                            metadata:{
+	                            message:this.state.guestData,
+	                            name:this.state.name,
+	                            email:this.state.email
+	                        }
                         })
 
                     })
@@ -61,6 +69,13 @@ class CheckoutForm extends Component {
     	this.setState({buttonDisabled:false, email:ev.target.value, error:false})
     }
 
+    updateName(ev){
+    	this.setState({name:ev.target.value})
+    }
+
+    updateGuestData(ev){
+    	this.setState({guestData:ev.target.value})
+    }
 
 // if (response.ok) console.log("Purchase Complete!")
 
@@ -80,22 +95,37 @@ render() {
           <div>
             <div style={{textAlign:"center"}}>
               <h1>Purchase Tickets</h1>
-              <br/>
-              <br/>
-              <div className="StripeElement" style={{display:"inline-block", maxWidth:1000}}>
-                <input placeholder="Number of tickets" type="number" style={{border:"none",maxWidth:1000}} onChange={this.updateTicketTotal}></input>
+              <br />
+              <br />
+              <div className="StripeElement" style={{display:"inline-block", minWidth:410}}>
+                <input placeholder="Name" type="text" style={{border:"none",width:380}} onChange={this.updateName}></input>
+              </div>
+
+              <br />
+              <br />
+              <div className="StripeElement" style={{display:"inline-block", minWidth:410}}>
+                <input placeholder="Email address" type="email" style={{border:"none",width:380}} onChange={this.updateEmail}></input>
               </div>
               <br />
-              <div className="StripeElement" style={{display:"inline-block", maxWidth:1000}}>
-                <input placeholder="email address" type="email" style={{border:"none",maxWidth:1000}} onChange={this.updateEmail}></input>
+              <br/>
+              <div className="StripeElement" style={{display:"inline-block", minWidth:410}}>
+                <input placeholder="Number of tickets" type="number" style={{border:"none", width:380}} onChange={this.updateTicketTotal}></input>
               </div>
-              <br />
             </div>
               <br />
               <br />
-              <br />
               <div style={{textAlign:"center", display:"block", margin:"auto"}}>
-              	{"£ ".concat((this.state.ticketTotal * 30).toString())}
+              	{!!this.state.ticketTotal &&
+              	"£ ".concat((this.state.ticketTotal * 30).toString())}
+              	
+              	{!this.state.ticketTotal && "£ 0"}
+              
+              	<br />
+              	<br />
+              	{(this.state.ticketTotal > 1) &&
+              <div className="StripeElement" style={{display:"inline-block", minWidth:410, height:70}}>
+                <textarea placeholder={"Name of Guests"} type="text" style={{border:"none", width:380, height:50}} onChange={this.updateGuestData}></textarea>
+              </div>}
               </div>
               <br />
               <div style={{display:"block", margin:"auto", maxWidth:600}}>

@@ -19,7 +19,7 @@ export default class Crew extends Component {
 				lookingForwardTo:"A memorable New Years eve on the boat",
 				crewmatesDescription:"",
 				dreading:"",
-				desertIslandDisk:"Gorgeous - Kanye",
+				desertIslandDisk:"Anywhere - Rita Ora",
 				greatestFear:"Falling out",
 				age:"24",
 				imageSource:[James, ""],

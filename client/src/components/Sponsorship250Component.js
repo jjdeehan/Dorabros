@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Instafeed from 'react-instafeed'
-
+import {NavLink} from "mdbreact"
 
 export default class Template extends Component {
 
@@ -25,11 +25,9 @@ export default class Template extends Component {
          
         <br />
         <br />
-
-        <form style={{color:"transparent", textAlign:"center"}} action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                  <input style={{color:"transparent"}} type="hidden" name="cmd" value="_s-xclick" />
-                  <input style={{color:"transparent"}} type="hidden" name="hosted_button_id" value="5XCB6KZPC9WP8" />
-                  <button style={{
+<div style={{color:"transparent", textAlign:"center"}} >
+        
+                  <NavLink style={{color:"white", fontSize:20}} onClick={this.itemClicked} to="/donate"><button style={{
                             margin:"auto",
                             color:"white", 
                             fontSize:19, 
@@ -44,16 +42,16 @@ export default class Template extends Component {
                             display:"inline-block"
 
 
-                                            }} border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" >
-                                            <div style={{
-                                              margin:"auto",
-                                              display:"block",
-                                              paddingTop:10,
-                                              paddingBottom:10,
-                                              paddingLeft:10,
-                                              paddingRight:10
-                                            }}>JOIN THE WALL OF FAME</div></button>
-                  </form>
+                          }} border="0" >
+                          <div style={{
+                            margin:"auto",
+                            display:"block",
+                            paddingTop:10,
+                            paddingBottom:10,
+                            paddingLeft:10,
+                            paddingRight:10
+                          }}>JOIN THE WALL OF FAME</div></button></NavLink>
+                  </div>
                   <br />
                   <br />
 <h3 style={{textAlign:"center"}}>{"WE COULDN'T DO IT WITHOUT YOU"}</h3>

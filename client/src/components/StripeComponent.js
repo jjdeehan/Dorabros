@@ -11,18 +11,18 @@ export default class MyStoreCheckout extends React.Component {
   }
   componentDidMount() {
     if (window.Stripe) {
-      this.setState({stripe: window.Stripe('pk_test_BZuxrpWT4ZvMYsOtSa2nafdK')});
+      this.setState({stripe: window.Stripe('pk_live_JgVijcvHpBaH1rY5hUHcvvZs')});
     } else {
       document.querySelector('#stripe-js').addEventListener('load', () => {
         // Create Stripe instance once Stripe.js loads
-        this.setState({stripe: window.Stripe('pk_test_BZuxrpWT4ZvMYsOtSa2nafdK')});
+        this.setState({stripe: window.Stripe('pk_live_JgVijcvHpBaH1rY5hUHcvvZs')});
       });
     }
   }
 
   render() {
     return (
-    	<StripeProvider apiKey="pk_test_BZuxrpWT4ZvMYsOtSa2nafdK">
+    	<StripeProvider apiKey="pk_live_JgVijcvHpBaH1rY5hUHcvvZs">
         <div className="example">
           <Elements>
               <CheckoutForm />

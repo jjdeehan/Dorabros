@@ -87,7 +87,8 @@ export default class ChallengeCycle extends Component {
 		    iconStyle={{ color: '#fff' }}
 		    icon={<div/>}
 		  >
-		  	<img  style={{float:"right", height:"auto", maxWidth:"100%"}} width="350" height="100" src={TWAC}  />
+		  	<img  style={{margin:"auto", margin:"auto", display:"block", height:"auto", maxWidth:"100%"}} width="350" height="100" src={TWAC}  />
+		    <br />
 		    <h3 className="vertical-timeline-element-title">Talisker Whisky Atlantic Challenge</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Atlantic Ocean</h4>
 		    <p>

@@ -17,7 +17,7 @@ const Rufus = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/Rufus.j
 const James = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/James.jpg'
 const whyHeader = 'http://dorabros.s3-website-us-east-1.amazonaws.com/images/InAidOf_TCT.jpg'
 const challenges = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/Challenges.jpg"
-const BallImage = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/ball.jpeg"
+const BallImage = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/BallRoom.jpeg"
 const uk = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/uk.png"
 const kosovo = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/kosovo.png"
 const jersey = "http://dorabros.s3-website-us-east-1.amazonaws.com/images/jersey.png"
@@ -39,6 +39,7 @@ import BallStripe from './components/BallStripeComponent'
 import BallAfterPartyStripe from './components/BallAfterPartyStripeComponent'
 import {StripeProvider} from 'react-stripe-elements';
 import Ball from './components/BallComponent'
+import BallAfterParty from './components/BallAfterPartyComponent'
 
 //load components
 
@@ -129,7 +130,7 @@ const App = ({ user }) => (
 			<ContactUs />
 		</div>} />
 
-	<Route exact={true} path="/donation" render={() => 
+	<Route exact={true} path="/donate" render={() => 
   		<div>
   		<HeaderImage source={ocean2}/>
 				<Stripe />
@@ -155,7 +156,7 @@ const App = ({ user }) => (
 	<Route exact={true} path="/ballAfterParty" render={() => 
   		<div>
   		<HeaderImage source={BallImage}/>
-  			<Ball />
+  			<BallAfterParty />
   			<BallAfterPartyStripe />
 			<br />
 			<br />

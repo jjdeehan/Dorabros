@@ -37,7 +37,7 @@ export default class HomepageCrew extends Component {
             
           </a>
           <a href='http://www.justgiving.com/Dorabros' target="_blank">
-                  <div style={{ 
+                  <div className="donateButton" style={{ 
                       margin:"auto",
                             display:"inline-block",
                             color:"white", 
@@ -62,7 +62,7 @@ export default class HomepageCrew extends Component {
                           <hr style={{width:"30%"}}/>
                           <br />
                           <a href="https://uk.virginmoneygiving.com/Team/Dorabros" target="_blank">
-        <div style={{ 
+        <div className="donateButton" style={{ 
           margin:"auto",
                             display:"inline-block",
                             color:"white", 

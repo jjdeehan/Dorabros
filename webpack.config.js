@@ -1,5 +1,6 @@
 var path = require('path');
 var LiveReloadPlugin = require('webpack-livereload-plugin');
+var UglifyJsPlugin = require("uglifyjs-webpack-plugin")
 
 module.exports = {
 
@@ -8,6 +9,9 @@ module.exports = {
     publicPath:"https://dorabros.com/public",
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'client/src/public/dist')
+  },
+  optimization:{
+    minimizer:[new UglifyJsPlugin()]
   },
   context: __dirname,
   devtool: 'source-map',

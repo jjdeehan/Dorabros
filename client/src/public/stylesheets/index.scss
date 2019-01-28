@@ -291,7 +291,11 @@ body{
   clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='https://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+  padding-left:0
 }
 
 .col-centered{
@@ -786,7 +790,7 @@ list-style-position: outside;
   padding: 10px 12px;
   border-radius: 4px;
   border: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 #e6ebf1;
+  box-shadow: 0 1px 3px 0 #4e5052;
   -webkit-transition: box-shadow 150ms ease;
   transition: box-shadow 150ms ease;
   max-width: 300;
@@ -803,6 +807,13 @@ list-style-position: outside;
 .StripeElement--webkit-autofill {
   background-color: #fefde5 !important;
 }
+
+
+
+.donateButton:hover{
+  opacity:0.5
+}
+
 
 
 
